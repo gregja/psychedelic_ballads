@@ -11,6 +11,7 @@ var xscale = 1;
 var yscale = 1;
 var ang = 0;
 var coeff_multi = 2;
+var keys = ['1', '2', '3', '4'];
 
 function setup() {
   maxwidth = windowWidth;
@@ -61,14 +62,13 @@ function draw() {
 }
 
 function keyPressed() {
-  // console.log(keyCode);
   var tmpkey = key.toLowerCase();
   if (tmpkey == 'x') {
     console.log('STOP');
-    console.log(displayList1.getChildren4Debug());
     noLoop();
   }
-  if (tmpkey == '1' || tmpkey == '2' || tmpkey == '3' || tmpkey == '4') {
+  if (keys.includes(tmpkey)) {
     coeff_multi = parseInt(tmpkey);
+    console.log('mode '+tmpkey);
   }
 }

@@ -15,3 +15,5 @@ Le principe est ici de démarrer avec une grille de 10 sur 10 cercles, dont les 
 L'application d'un effet de transparence donne des effets visuellement intéressants.
 
 Sur la ballade n°1, la touche F déclenche des changements d'échelle qui se répercutent sur les touches A à E, pour le meilleur et pour le pire.
+
+Attention, si vous pensez être sujet à des problèmes d'épilepsie, n'abusez pas de certains effets (en particulier celui associé à la touche F précitée).
